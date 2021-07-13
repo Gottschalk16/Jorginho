@@ -13,7 +13,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
    <div class="container-fluid">
       <!--Adicionar ícone -->
-      <img src="" alt="" width="30" height="24">
+      <img src="img/Infantry.png" alt="" width="30" height="24">
       <div class="nav justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
          <li class="nav-item">
