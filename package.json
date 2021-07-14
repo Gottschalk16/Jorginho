@@ -1,0 +1,25 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "teste descricao",
+  "main": "index.js",
+  "scripts": {
+    "test": "command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gottschalk16/Jorginho.git"
+  },
+  "keywords": [
+    "keywords"
+  ],
+  "author": "Gott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gottschalk16/Jorginho/issues"
+  },
+  "homepage": "https://github.com/Gottschalk16/Jorginho#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
