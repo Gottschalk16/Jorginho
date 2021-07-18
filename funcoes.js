@@ -1,6 +1,11 @@
 //constantes
 const gif = require('./funcoes/gif.js');
-const commands = { gif };
+const ping = require ('./funcoes/ping.js');
+const server = require ('./funcoes/infoserver.js');
+const user = require ('./funcoes/user-info.js');
+const banir = require ('./funcoes/banimento.js');
+const avatar = require ('./funcoes/avatar.js');
+const commands = { gif, ping, server, user, banir, avatar };
 
 module.exports = async function (msg){
    let tokens = msg.content.split(" ");
