@@ -1,10 +1,10 @@
 //constantes
-const gif = require('./funcoes/gif.js');
-const ping = require ('./funcoes/ping.js');
-const server = require ('./funcoes/infoserver.js');
-const user = require ('./funcoes/user-info.js');
-const banir = require ('./funcoes/banimento.js');
-const avatar = require ('./funcoes/avatar.js');
+const gif = require('./funcoes/diversao/gif.js');
+const ping = require ('./funcoes/diversao/ping.js');
+const server = require ('./funcoes/utilidades/infoserver.js');
+const user = require ('./funcoes/utilidades/user-info.js');
+const banir = require ('./funcoes/moderacao/banimento.js');
+const avatar = require ('./funcoes/utilidades/avatar.js');
 const commands = { gif, ping, server, user, banir, avatar };
 
 module.exports = async function (msg){
